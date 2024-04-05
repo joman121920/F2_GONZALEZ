@@ -1,0 +1,83 @@
+section {
+    > card {
+        
+        > section {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            > .card-img {
+                color: var(--secondary-superdark);
+            }
+
+            > .card-title {
+                width: 100%;
+                background-color: var(--secondary-light);
+                padding: 4px 8px;
+                border: 2px solid var(--secondary-superdark);
+            }
+        }
+    }
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: white;
+    gap: 10px;
+    width: 100%;
+    border: 2px solid var(--secondary-superdark);
+
+    padding: 10px;
+    > section {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        > .card1-img {
+            color: var(--secondary-superdark);
+        }
+
+        > .card1-title {
+            width: 100%;
+            background-color: var(--secondary-light);
+            padding: 4px 8px;
+            border: 2px solid var(--secondary-superdark);
+        }
+    }
+    > .card1-txt {
+        background-color: var(--secondary-verylight);
+        color: var(--secondary-superdark);
+        padding: 10px 16px;
+        border: 2px solid var(--secondary-superdark);
+    }
+}
+
+main {
+    display: flex;
+    gap: 10px;
+
+    > .card {
+        width: 100%;
+        > .card-txt {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+            gap: 20px;
+
+            > img {
+                width: 100%;
+            }
+
+            > span {
+                border: 1px solid var(--secondary-light);
+                cursor: pointer;
+                border-radius: 6px;
+                padding: 2px 8px;
+                color: var(--secondary-light);
+            }
+        }
+    }
+}
